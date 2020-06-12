@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Oasis Extension",
+  "version": "1.0",
+  "description": "Redirection to the calm",
+  "chrome_url_overrides": {
+    "newtab": "redirect.html"
+  },
+  "browser_action": {
+    "default_icon": "mask.png"
+  },
+  "permissions": ["tabs"]
+}
