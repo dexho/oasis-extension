@@ -8,6 +8,39 @@ html {
 
 .landing-wrapper {
   width: 100%;
+  padding: 2rem 0 2rem 0;
+  background: #c3ebe7;
+  background: linear-gradient(120deg, #c3ebe7 0%, #2a3c4e 100%);
+}
+
+.image-date-wrapper {
+  padding-top: 3rem;
+}
+
+.image-wrapper {
+  margin-left: 144px;
+}
+
+.date-wrapper {
+  margin-left: 144px;
+}
+
+.location {
+  margin-left: 144px;
+}
+
+@media screen and (min-width: 568px) {
+  .location {
+    margin-left: 0;
+  }
+}
+.logo {
+  margin-left: 144px;
+}
+
+.down-svg {
+  text-align: center;
+  margin: auto;
 }
 
 main, footer {
@@ -61,7 +94,7 @@ p {
 }
 
 .info-item h1 {
-  color: #d5e9a6;
+  color: #E4EFD3;
   letter-spacing: 0.1em;
 }
 .info-item .source {
@@ -81,6 +114,10 @@ p {
 
 .button2 {
   text-align: right;
+}
+
+.date {
+  letter-spacing: 5px;
 }
 
 .button-primary--style {
