@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Oasis Extension",
-  "version": "1.0",
-  "description": "Redirection to the calm",
+  "version": "0.0.0.1",
+  "description": "Oasis MVP testing extension submision",
   "chrome_url_overrides": {
-    "newtab": "redirect.html"
+    "newtab": "index.html"
   },
   "browser_action": {
     "default_icon": "mask.png"
