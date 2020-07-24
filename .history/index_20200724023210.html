@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Oasis - the calm in the storm</title>
+        <meta name="description" content="Oasis is a web extension designed to keep you feeling calm while delivering you crucial information.">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png"/>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173463616-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-173463616-1');
+        </script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Muli:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/79899b02f3.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/dist/normalize.css" type="text/css">
+        <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous"> -->
+
+        <link rel="stylesheet" href="css/dist/main.css" type="text/css">
+    </head>
+    <body>
+        <div class="dash-wrapper">
+            <div class="image-wrapper">
+                <img width="300vw" src="assets/images/oasis-island-day-gradient.png" alt="">
+            </div>
+
+            <div class="date-location wrapper">
+                <div class="date-wrapper">
+                    <h3 class="today-text">today is</h3> <h1 id="date" class="date"></h1>
+                </div>
+                <div class="location">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>    Boston, MA, United States
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="js/moment.js"></script>
+    <script src="js/date.js"></script>
+
+
+
+
+</html>
+
