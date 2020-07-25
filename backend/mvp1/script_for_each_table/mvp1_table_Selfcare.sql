@@ -7,7 +7,7 @@
 
 CREATE TABLE `Selfcare` (
   `suggestion_id` int NOT NULL,
-  `source` varchar(200) NOT NULL,
+  `source` varchar(2000) NOT NULL,
   `location_id` bigint NOT NULL,
   `title` varchar(500) NOT NULL,
   `text` text NOT NULL,

@@ -7,10 +7,10 @@
 
 CREATE TABLE `Information` (
   `info_id` int NOT NULL,
-  `official_site` varchar(500) NOT NULL,
-  `url` varchar(4000) NOT NULL,
+  `official_site` varchar(100) NOT NULL,
+  `url` varchar(2000) NOT NULL,
   `location_id` bigint NOT NULL,
-  `title` varchar(2000) NOT NULL,
+  `title` varchar(500) NOT NULL,
   `text` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `published` date NOT NULL,
   `updated` date DEFAULT NULL,
