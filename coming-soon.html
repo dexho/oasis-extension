@@ -42,6 +42,11 @@
                 <h3 class="page-description">
                     a calming dashboard with need-to-know information about the pandemic. 
                 </h3>
+                <form action="/user-email" method="post">
+                    <label for="email">Email</label> <br>
+                    <input type="email" name="email" placeholder="youremail@email.com" required>
+                    <input type="submit" value="subscribe">
+                </form>    
             </div>
         </main>
         <footer>
@@ -50,4 +55,6 @@
             </p>
         </footer>
     </body>
+    <script src="backend/users/index.js"></script>
+
 </html>
