@@ -1,3 +1,4 @@
+const express = require('express')
 var mysqlx = require('@mysql/xdevapi');
 var myTable;
 

@@ -47,10 +47,13 @@ html{
 .info-tab-shape{
     width: 150px;
     height:300px;
-    background-color: $light-grey;
+    background-color: rgba(192,207,222, 0.4);
     border-bottom-left-radius: 150px * 2;
     border-top-left-radius: 150px * 2;
+}
 
+.info-tab-shape:hover{
+    cursor: pointer;
 }
 
 .info-tab-wrapper{
@@ -60,6 +63,20 @@ html{
     vertical-align:center;
 }
 
+#info{
+    background-color:$white;
+    position:fixed;
+    right:0;
+    top:0;
+    height: 100vh;
+    width: 50vh;
+    transform:translate3d(50vh,0,0);
+    transition: transform .3s cubic-bezier(0, .52, 0, 1);
+}
+
+#info.show{
+    transform: translate3d(0vh, 0,0);
+}
 
 // @media screen and (min-width: 568px){
 //     .location{
