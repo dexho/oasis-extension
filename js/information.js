@@ -1,6 +1,5 @@
-const informationShape = document.getElementById("info-tab");
+// const informationShape = document.getElementById("info-tab");
 
-informationShape.addEventListener("click", function(e){
-    alert('yea');
-    
-})
+// informationShape.addEventListener("click", function(e){
+//     alert('yea');
+// })
