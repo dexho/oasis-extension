@@ -4,6 +4,7 @@ html {
   font-weight: 400;
   line-height: 24px;
   background-color: #efefef;
+  height: 100vh;
 }
 
 .dash-wrapper {
@@ -44,10 +45,11 @@ html {
   background-color: #C0CFDE;
   border-bottom-left-radius: 500px;
   border-top-left-radius: 500px;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .info-tab-wrapper {
+  height: 100vh;
   position: fixed;
   right: -50px;
   top: 25%;
@@ -58,6 +60,10 @@ html {
   width: 400px;
   height: 100vh;
   background-color: white;
+  padding: 50px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow: auto;
 }
 
 .info-panel-wrapper {
@@ -67,6 +73,17 @@ html {
 
 .initiallyHidden {
   display: none;
+}
+
+.plusBullets {
+  list-style: "+ " outside;
+  padding-left: 0;
+  margin-left: 1em;
+}
+
+.border {
+  border-bottom: 1px solid #99AABB;
+  margin: 0 -0.5em;
 }
 
 h1 {
@@ -98,6 +115,10 @@ p {
   font-weight: 400;
   line-height: 32px;
   color: #141414;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .info-item h1 {
