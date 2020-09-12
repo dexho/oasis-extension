@@ -46,6 +46,10 @@ html {
   border-bottom-left-radius: 500px;
   border-top-left-radius: 500px;
   opacity: 0.8;
+  position: fixed;
+  right: -70px;
+  top: 25%;
+  vertical-align: center;
 }
 
 .info-tab-wrapper {
@@ -71,8 +75,18 @@ html {
   right : 0;
 }
 
+#tab-arrow {
+  position: absolute;
+  right: 70%;
+  top: 47%;
+}
+
 .initiallyHidden {
   display: none;
+}
+
+.rotated {
+  rotate: 180;
 }
 
 .plusBullets {
