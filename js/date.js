@@ -4,7 +4,12 @@
 // const time = thedate.getHours() + ":" + thedate.getMinutes();
 // console.log(today);
 
-const date = moment().format('ddd'+','+' MMM Do');
+const date = moment().format('ddd'+', ');
+const month = moment().format('MMM Do');
+const lowerDate = date.toLowerCase();
+const lowerMonth = month.toLowerCase();
 const time = moment().format('LT');
 
-const dateId = document.getElementById("date").innerHTML = date;
+const dateID = document.getElementById("date").innerHTML = lowerDate;
+const monthID = document.getElementById("month").innerHTML = lowerMonth;
+const timeID = document.getElementById("time").innerHTML = time;
