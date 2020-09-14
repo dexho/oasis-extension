@@ -10,13 +10,14 @@ html {
 .dash-wrapper {
   width: 100vw;
   height: 100vh;
-  background: #2f455a;
-  background: linear-gradient(-15deg, #2f455a 0%, #bbe1df 100%);
+  background: linear-gradient(-15deg, #203748 0%, #D1F6F4 100%);
+  /* background: linear-gradient(-15deg, #141414 0%, #2f455a 100%); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   grid-template-rows: auto;
   grid-template-areas: ". a a ." ". a a .";
+  z-index: -2
 }
 
 .image-date-location {
@@ -25,18 +26,41 @@ html {
   justify-self: center;
 }
 
-.image-wrapper {
-  text-align: center;
-  padding-top: 1.5rem;
+.island-wrapper {
+  position: relative;
+  margin-top: 5%;
 }
 
-.date-wrapper {
+.island-night {
+  opacity: 0;
+  width: 130%;
+  margin-left: -12%;
+  position: absolute;
+  z-index: 1;
+}
+
+.island-day {
+  width: 130%;
+  margin-left: -12%;
+  position: absolute;
+  z-index: 0;
+}
+
+.lower-wrapper {
+  margin-top: 165%;
   text-align: center;
 }
 
 .location {
-  text-align: center;
-  color: #768A9D;
+  position: absolute;
+  top: 32px;
+  right: 40px;
+  float: left;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 0px;
+  letter-spacing: 1px;
+  color: #C0CFDE;
 }
 
 .info-tab-shape {
@@ -158,9 +182,31 @@ p {
   text-align: right;
 }
 
-.today-text {
+.time {
   letter-spacing: 8px;
-  color: #768A9D;
+  /* text-shadow: 2px 2px #d5e9a6; */
+  color: #99AABB;
+}
+
+.date-month-wrapper{
+  text-align: center;
+  margin-top: -30px;
+  /* position: relative; */
+}
+
+.date {
+  opacity: 70%;
+  float: left;
+  font-size: 48px;
+  /* text-align: center; */
+}
+
+.month {
+  opacity: 60%;
+  font-weight: 700;
+  float: left;
+  font-size: 48px;
+  margin-left: 10px;
 }
 
 .information-text {
