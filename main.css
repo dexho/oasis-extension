@@ -20,6 +20,14 @@ html {
   z-index: -2
 }
 
+.background-grad {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background: linear-gradient(-15deg, #141414 0%, #2f455a 100%);
+  z-index: -1;
+}
+
 .image-date-location {
   grid-area: a;
   align-self: center;
@@ -191,14 +199,12 @@ p {
 .date-month-wrapper{
   text-align: center;
   margin-top: -30px;
-  /* position: relative; */
 }
 
 .date {
   opacity: 70%;
   float: left;
   font-size: 48px;
-  /* text-align: center; */
 }
 
 .month {

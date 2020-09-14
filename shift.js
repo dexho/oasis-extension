@@ -12,7 +12,7 @@ if (hour < 6 || hour > 20) {
     document.getElementById("date").style.opacity = 0.5;
     document.getElementById("month").style.opacity = 0.3;
     document.getElementById("location").style.opacity = 0.6;
-} else if (false || hour == 7 || hour == 19){
+} else if (hour == 7 || hour == 19){
     //golden hour, sunrise/sunset
     gradient = "linear-gradient(-15deg, #0e1c26 0%, #a4c6b8 100%)";
     document.getElementById("dash-wrapper").style.background = gradient;
