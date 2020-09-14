@@ -10,8 +10,7 @@ html {
 .dash-wrapper {
   width: 100vw;
   height: 100vh;
-  /* background: #2f455a; */
-  background: linear-gradient(-15deg, #2f455a 0%, #bbe1df 100%);
+  background: linear-gradient(-15deg, #203748 0%, #D1F6F4 100%);
   /* background: linear-gradient(-15deg, #141414 0%, #2f455a 100%); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -36,58 +35,27 @@ html {
 }
 
 .island-wrapper {
-  width: 95%;
+  position: relative;
+  margin-top: 5%;
 }
 
 .island-night {
   opacity: 0;
-  float: left;
-  width: 66%;
-  margin-left: -38%;
-  left:420px;
-  position: relative;
+  width: 130%;
+  margin-left: -12%;
+  position: absolute;
   z-index: 1;
 }
 
 .island-day {
-  float: left;
-  right: 43px;
-  width: 66%;
-  margin: auto;
-  position: relative;
+  width: 130%;
+  margin-left: -12%;
+  position: absolute;
   z-index: 0;
 }
 
-/* 
-.mini-2-wrapper {
-  float: left;
-  width: 66%;
-  margin-left: -83%;
-  left:25px;
-  padding-top: 2%;
-  position: relative;
-  animation: MoveUpDown 6s ease-out infinite;
-}
-
-.waterfall-wrapper {
-  float: left;
-  width: 66%;
-  margin-left: -81.3%;
-  left:25px;
-  padding-top: 5%;
-  position: relative;
-}
-
-.drip-wrapper {
-  float: left;
-  width: 66%;
-  margin-left: -81.3%;
-  left:25px;
-  padding-top: 10%;
-  position: relative;
-} */
-
 .lower-wrapper {
+  margin-top: 165%;
   text-align: center;
 }
 
@@ -230,21 +198,20 @@ p {
 
 .date-month-wrapper{
   text-align: center;
-  margin-left: 195px;
   margin-top: -30px;
-  position: relative;
 }
 
 .date {
   opacity: 70%;
   float: left;
-  text-align: center;
+  font-size: 48px;
 }
 
 .month {
   opacity: 60%;
   font-weight: 700;
   float: left;
+  font-size: 48px;
   margin-left: 10px;
 }
 
