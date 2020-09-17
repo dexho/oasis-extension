@@ -1,11 +1,13 @@
 $(function() {
-    $('.info-tab-shape').click(function() {
+    $('.semicircle').click(function() {
         if ($(this).hasClass("on")) {
+            document.getElementById("semicircle").style.opacity = 0.45;
             move = '+=400px';
             $(this).toggleClass("on");
             angle = 0;
             $('#tab-arrow').toggleClass("rotated");
         } else {
+            document.getElementById("semicircle").style.opacity = 0.75;
             move = '-=400px';
             $(this).toggleClass("on");
             angle = 180;
